@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Major Soluções | Manutenção de Máquinas Industriais</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__wrap">
+      <a class="logo" href="#home">
+        <span class="logo__mark">M</span>
+        <div class="logo__text">
+          <strong>Major Soluções</strong>
+          <small>Manutenção Industrial</small>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato" class="btn btn--primary">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero__wrap">
+      <div class="hero__content">
+        <h1>Manutenção de máquinas industriais com alto desempenho e segurança</h1>
+        <p>Especialistas em solder wave, torno CNC, esteiras transportadoras, injetoras, extrusoras e painéis elétricos.</p>
+        <a href="#contato" class="btn btn--primary">Solicitar orçamento</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="section">
+    <div class="container">
+      <h2>Serviços</h2>
+      <div class="cards">
+        <article class="card"><h3>Solder Wave</h3><p>Manutenção em máquinas de solda por onda.</p></article>
+        <article class="card"><h3>Torno CNC</h3><p>Revisão e calibração de tornos CNC.</p></article>
+        <article class="card"><h3>Esteiras Transportadoras</h3><p>Confecção e manutenção sob medida.</p></article>
+        <article class="card"><h3>Injetoras</h3><p>Manutenção em injetoras de todas as marcas.</p></article>
+        <article class="card"><h3>Extrusoras</h3><p>Serviços de manutenção e otimização.</p></article>
+        <article class="card"><h3>Painéis Elétricos</h3><p>Montagem e modernização conforme normas NR-10 e NR-12.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clientes -->
+  <section id="clientes" class="section alt">
+    <div class="container">
+      <h2>Clientes</h2>
+      <div class="clients">
+        <div class="client-card"><strong>Moto Honda</strong><p>Manutenção em linhas de produção.</p></div>
+        <div class="client-card"><strong>Intelbras</strong><p>Projetos de suporte técnico.</p></div>
+        <div class="client-card"><strong>SENAI</strong><p>Parcerias em treinamentos e laboratórios.</p></div>
+        <div class="client-card"><strong>Projetos Pessoais</strong><p>Soluções sob medida para pequenas indústrias.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre</h2>
+      <p>A Major Soluções atua em Manaus e região oferecendo manutenção industrial com foco em segurança e eficiência.</p>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2>Contato</h2>
+      <ul class="list">
+        <li><strong>Telefone/WhatsApp:</strong> (92) 99174-8717</li>
+        <li><strong>Endereço:</strong> Rua da Saudade, nº 19 – Manaus, AM</li>
+        <li><strong>E-mail:</strong> contato@majorsolucoes.com.br</li>
+      </ul>
+      <p><a class="btn btn--primary" href="https://wa.me/5592991748717" target="_blank">Fale conosco no WhatsApp</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <p>© <span id="year"></span> Major Soluções. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5592991748717" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    <span>Fale conosco</span>
+  </a>
+
+  <!-- Barra WhatsApp Mobile -->
+  <a href="https://wa.me/5592991748717" class="whatsapp-bar" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    <span>Fale conosco no WhatsApp</span>
+  </a>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
